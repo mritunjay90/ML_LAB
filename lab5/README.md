@@ -26,14 +26,21 @@ The goal of this lab is to build a machine learning classification model using t
 5. Evaluate the model using accuracy, confusion matrix, and classification report.
 
 ## Results
-The trained logistic regression model is used to classify the test data, and its performance is assessed using evaluation metrics such as:
-- Accuracy score
-- Confusion matrix
-- Classification report
+The trained logistic regression model was evaluated on the test set with the following metrics:
+- Accuracy: 0.9737
+- Precision: 0.9722
+- Recall: 0.9859
+- F1-score: 0.9790
+- Confusion Matrix:
+  - [[41, 2], [1, 70]]
+
+The model coefficients showed that:
+- Largest positive coefficient: compactness error
+- Largest negative coefficient: worst texture
 
 ## Conclusion
-This lab demonstrates the application of logistic regression for binary classification using a real-world medical dataset. It highlights the importance of preprocessing, model training, and performance evaluation in machine learning.
+This lab demonstrates the application of logistic regression for binary classification using the Breast Cancer dataset. It highlights the importance of data preprocessing, train/test splitting, model training, and performance evaluation in machine learning.
 
 ## Notes
-- Make sure the required Python packages are installed before running the notebook.
+- The notebook requires scikit-learn and other standard Python machine learning libraries.
 - The notebook can be opened and executed in Jupyter or VS Code.
