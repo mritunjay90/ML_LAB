@@ -1,0 +1,26 @@
+# Data (often too large / not meant for git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/raw/nepali_sentiment_raw.csv
+!data/processed/.gitkeep
+
+# Models
+models/*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+.ipython/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+**/.matplotlib/
+
+# OS
+.DS_Store
+Thumbs.db
